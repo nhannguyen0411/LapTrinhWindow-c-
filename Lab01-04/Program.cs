@@ -47,7 +47,7 @@ namespace Lab01_04
                 Console.WriteLine("5. TOTAL TEXTBOOK.");
                 Console.WriteLine("6. TOTAL REFER BOOK.");
                 Console.WriteLine("7. OUTPUT BOOKS OF WRITER X.");
-                Console.WriteLine("8. OUTPUT LIST OF WRITER WITH MANY OF REBOOK.");
+                Console.WriteLine("8. OUTPUT LIST OF WRITERS WITH MANY OF REBOOK.");
                 Console.WriteLine("9. FIND 1 IDBOOK AND OUTPUT TOTAL PRICE.");
                 Console.WriteLine("0. LUU VA THOAT");
                 Console.Write("> ");
