@@ -14,16 +14,16 @@ namespace Lab01_04
             List<TextBook> liTeBook = new List<TextBook>();
             List<ReBook> liReBook = new List<ReBook>();
 
-            TextBook tb1 = new TextBook("DD", "18/09/2019", 5000, 20, "A", "New");
-            TextBook tb2 = new TextBook("TH", "18/09/2019", 3000, 50, "X", "Old");
-            TextBook tb3 = new TextBook("HH", "18/09/2019", 1000, 5, "X", "New");
+            TextBook tb1 = new TextBook("REACTJS", "18/09/2019", 5000, 20, "KD", "New");
+            TextBook tb2 = new TextBook("NODEJS", "18/09/2019", 3000, 50, "NN", "Old");
+            TextBook tb3 = new TextBook("HTML", "18/09/2019", 1000, 5, "TT", "New");
 
 
-            ReBook rb1 = new ReBook("KN", "18/09/2019", 4000, 150, "B", 400);
-            ReBook rb2 = new ReBook("LG", "18/09/2019", 10000, 100, "X", 500);
-            ReBook rb3 = new ReBook("AL", "18/09/2019", 7000, 200, "Z", 150);
-            ReBook rb4 = new ReBook("WD", "18/09/2019", 1500, 50, "B", 800);
-            ReBook rb5 = new ReBook("CS", "18/09/2019", 5500, 10, "C", 1000);
+            ReBook rb1 = new ReBook("GIT", "18/09/2019", 4000, 150, "KD", 400);
+            ReBook rb2 = new ReBook("ANGULAR", "18/09/2019", 10000, 100, "NN", 500);
+            ReBook rb3 = new ReBook("VUEJS", "18/09/2019", 7000, 200, "HT", 150);
+            ReBook rb4 = new ReBook("CSS", "18/09/2019", 1500, 50, "KD", 800);
+            ReBook rb5 = new ReBook("JAVASCRIPT", "18/09/2019", 5500, 10, "KA", 1000);
 
             liTeBook.Add(tb1);
             liTeBook.Add(tb2);
@@ -47,8 +47,8 @@ namespace Lab01_04
                 Console.WriteLine("5. TOTAL TEXTBOOK.");
                 Console.WriteLine("6. TOTAL REFER BOOK.");
                 Console.WriteLine("7. OUTPUT BOOKS OF WRITER X.");
-                Console.WriteLine("8. XUAT DANH SACH NHA XUAT BAN CO NHIEU TONG SO SACH THAM KHAO NHAT.");
-                Console.WriteLine("9. NHAP VAO 1 MA SACH DE TIM KIEM VA XUAT RA TONG THANH TIEN (NEU CO).");
+                Console.WriteLine("8. OUTPUT LIST OF WRITER WITH MANY OF REBOOK.");
+                Console.WriteLine("9. FIND 1 IDBOOK AND OUTPUT TOTAL PRICE.");
                 Console.WriteLine("0. LUU VA THOAT");
                 Console.Write("> ");
                 option = int.Parse(Console.ReadLine());
@@ -187,8 +187,10 @@ namespace Lab01_04
                                     totalPrice = item.Amount * item.Price + item.Tax;
                                 }
                             }
-
-                            Console.WriteLine("Total price: {0}", totalPrice);
+                            if(totalPrice > 0)
+                                Console.WriteLine("Total price: {0}", totalPrice);
+                            else
+                                Console.WriteLine("Don't have IDBook");
                             break;
                         }
                     default: break;
