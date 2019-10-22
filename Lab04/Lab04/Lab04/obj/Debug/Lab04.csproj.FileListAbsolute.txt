@@ -1,0 +1,15 @@
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\Lab04.exe.config
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\Lab04.exe
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\Lab04.pdb
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\EntityFramework.dll
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\EntityFramework.SqlServer.dll
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\EntityFramework.xml
+D:\CNTT\Windows\Lab04\Lab04\Lab04\bin\Debug\EntityFramework.SqlServer.xml
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.csprojAssemblyReference.cache
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.Properties.Resources.resources
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.csproj.GenerateResource.cache
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.csproj.CoreCompileInputs.cache
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.csproj.CopyComplete
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.exe
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.pdb
+D:\CNTT\Windows\Lab04\Lab04\Lab04\obj\Debug\Lab04.frm.resources
